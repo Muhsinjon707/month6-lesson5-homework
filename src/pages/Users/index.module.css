@@ -1,0 +1,140 @@
+.homeContent {
+    width: 100%;
+}
+
+.addUserHeading {
+    margin-bottom: 20px;
+}
+
+.form {
+    margin: 50px auto;
+    border: 3px solid;
+    padding: 30px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 500px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid;
+    padding-bottom: 15px;
+}
+
+.formLabel {
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform .3s ease-in-out;
+}
+
+.formLabel:hover {
+    transform: scale(1.1);
+}
+
+.formInput {
+    padding: 12px 15px;
+    outline: inherit;
+    border-radius: 15px;
+    border: none;
+}
+
+.box:nth-of-type(3) {
+    position: relative;
+    /* z-index: -1; */
+}
+
+.eyeImage {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    top: 40%; 
+    right: 0;
+    transform: translate(-50%, -50%);
+    opacity: .6;
+    cursor: pointer;
+}
+
+.formInput::placeholder {
+    font-style: oblique;
+    text-align: center;
+}
+
+.actionButtons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btnSubmit {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: inherit;
+    text-transform: uppercase;
+    background-color: #515a5a;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin: 50px auto;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid;
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.successMsg {
+    background-color: #58d68d;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.action {
+    display: flex;
+    align-self: end;
+    gap: 12px;
+}
+
+.action button {
+    padding: 8px 10px;
+}
+
+.btnEdit {
+    background-color: blue;
+}
+
+.btnDelete {
+    background-color: red;
+}
+
+.userImg {
+    width: 100%;
+}

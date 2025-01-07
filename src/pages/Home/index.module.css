@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin: 50px auto;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid;
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.successMsg {
+    background-color: #58d68d;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.action {
+    display: flex;
+    align-self: end;
+    gap: 12px;
+}
+
+.action button {
+    padding: 8px 10px;
+}
+
+.btnEdit {
+    background-color: blue;
+}
+
+.btnDelete {
+    background-color: red;
+}
+
+.userImg {
+    width: 100%;
+}
+
+.moreInfo {
+    align-self: end;
+    padding: 8px 10px;
+    border-radius: 12px;
+    background-color: #58d68d;
+    border: none;
+    color: inherit;
+    text-transform: uppercase;
+}
